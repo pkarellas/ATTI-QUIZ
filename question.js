@@ -2,9 +2,9 @@
 //array of questions
 const quiz = [
 {
-    q:'Is asphalt binder sampled from the last possible point before being introduced into the hotplant?',
+    q:'When sampling aggregate (R66) it is appropriate to sample from the beginning of the aggregate run at the plant?',
     options:['True','False'],
-    answer: 0
+    answer: 1
 },
 {
     q:'Calculate the Dry Density?',
