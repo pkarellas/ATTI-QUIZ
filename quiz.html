@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>atti quiz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="home-box custom-box">
+<img src="images/atti.png">
+<h3 id="test" style="border:1px;border-style:solid;border-color: black;padding: 1em"><p><b><u>Instruction:</u></b></p><p> This is a practice test to test your knowledge of ATTI field procedures. Please answer all the questions to the best of your ability. This test in no way counts against the score of your official test. This provides extra practice.</p>
+<p> The test will only have 20 questions but the test will randomize and give you new questions each time you take the quiz. Take as many times as you want this is only practice.</p></h3>
+<p><h4>Total number</h4> <h1><span class="total-question"></span></h1></p>
+
+<button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
+</div>
+<div class="quiz-box custom-box hide">
+<div class="question-number">
+
+</div>
+<div class="question-text">
+
+</div>
+<div class="option-container">
+
+</div>
+<div class="next-question-btn">
+<button type="button" class="btn" onclick="next()">Next</button>
+</div>
+<div class="answers-indicator">
+
+</div>
+</div>
+
+<div class="result-box custom-box hide">
+<h1><h3><u> QUIZ RESULTS</u></h3></h1>
+<table>
+<tr>
+<td><h4>TOTAL QUESTIONS:</h4></td>
+<td><span class="total-question"></span></td>
+</tr>
+<tr>
+<td><h4>ATTEMPTED QUESTIONS:</h4></td>
+<td><span class="total-attempt"></span></td>
+</tr>
+<tr>
+<td><h4>CORRECT:</h4></td>
+<td><span class="total-correct"></span></td>
+</tr>
+<tr>
+<td><h4>WRONG:</h4></td>
+<td><span class="total-wrong"></span></td>
+</tr>
+<tr>
+<td><h4>PERCENTAGE:</h4></td>
+<td><span class="percentage"></span></td>
+</tr>
+<tr>
+<td><h4>YOUR TOTAL SCORE:</h4></td>
+<td><span class="total-score"></span></td>
+</tr>
+</table>
+<button type="button" class="btn" onclick="tryAgainQuiz()">TRY AGAIN</button>
+<button type="button" class="btn" onclick="goToHome()">HOME</button>
+
+</hr>
+
+
+
+
+
+</div>
+
+<script src="question.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
