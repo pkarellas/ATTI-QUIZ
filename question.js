@@ -2,39 +2,39 @@
 //array of questions
 const quiz = [
 {
-    q:'When sampling aggregate (R66) it is appropriate to sample from the beginning of the aggregate run at the plant?',
+    q:'The minimum sample size for liquid asphalt material is 1 qt for asphalt binder and 1 qt for emulsified asphalt?',
     options:['True','False'],
-    answer: 1
+    answer: 0
 },
 {
-    q:'Calculate the Dry Density?',
-    options:['129.1','121.9','130.1','125.6'],
+    q:'One of the containers for liquid asphalt materials (not emulsified asphalt) are?',
+    options:['Plastic wide-mouth jars','Double-seal friction-top cans','clean cardboard box','5 gallon bucket (no top)'],
     answer: 1,
     img: 'images/calc3new.png'
 },
 {
-    q:'A double friction top can is used to sample what type of material?',
+    q:'A Double-seal friction-top can is used to sample what type of material?',
     options:['aggregates','emulsions','asphalt binder','soils'],
     answer: 2,
 },
 {
-    q:'Sampling AC from finished pavement is taken through the complete thickness, or _______  of the pavement. In a way that causes minimum disturbance to the sample.',
-    options:['Jack Hammer','None of the above','Lift','Shovel full'],
-    answer: 2
-},
-{
-    q:'Calculate the Volume of the Hole?',
-    options:['NONE','.0600','.0614','.0641'],
-    answer: 2,
-    img: 'images/calc3newest.png'
-},
-{
-    q:'Sampling from the Roadway ____ shovelful of material is tken from at least _____ random locations.',
-    options:['1, 4','3, 1','1, 2','1, 3'],
+    q:'What kind of material does a technician use a wide mouth jar to sample?',
+    options:['aggregates','None of the above','subbase','emulsified asphalt'],
     answer: 3
 },
 {
-    q:'Can you use power equipment to develop seperate, small, sampling piles when sampling from stockpiles?',
+    q:'A sample container for liquid Asphalt material can be cleaned with solvents?',
+    options:['True','False'],
+    answer: 1,
+    img: 'images/calc3newest.png'
+},
+{
+    q:'Emulsified asphalt samples are to be protected from...?',
+    options:['None of the above','Overheating','Freezing','Fire'],
+    answer: 3
+},
+{
+    q:'Can you sample emulsified asphalt under pressure?',
     options:['True','False'],
     answer: 1
 },
