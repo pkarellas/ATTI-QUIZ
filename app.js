@@ -5,7 +5,10 @@ const answersIndicatorContainer = document.querySelector(".answers-indicator");
 const homeBox = document.querySelector(".home-box");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
-const questionLimit = 20; // if you want all questions "quiz.length"
+
+const congratsbox = document.querySelector(".congrats-box");
+
+const questionLimit = 10; // if you want all questions "quiz.length"
 let questionCounter = 0;
 let currentQuestion;
 let availableQuestions = [];
@@ -155,7 +158,14 @@ function quizOver(){
     resultBox.classList.remove("hide");
     if (correctAnswers==10){
         audiotwo.play();
-    
+    setTimeout(()=>{
+        resultBox.classList.add("hide");
+        congratsbox.classList.remove("hide");
+    },20);
+    setTimeout(()=>{
+        resultBox.classList.remove("hide");
+        congratsbox.classList.add("hide");
+    },7000);
     }
    quizResult();
 }
