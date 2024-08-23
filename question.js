@@ -30,7 +30,7 @@ const quiz = [
 {
     q:'Emulsified asphalt samples are to be protected from...?',
     options:['None of the above','Overheating','Freezing','Fire'],
-    answer: 3
+    answer: 2
 },
 {
     q:'Can you sample emulsified asphalt under pressure?',
@@ -101,12 +101,6 @@ const quiz = [
     q:'When using the nuclear density gauge other radioactive sources must not be within ______ of the gauge when in operation?',
     options:['30ft','20ft','10ft','None of the above.'],
     answer: 0
-},
-{
-    q:'When using the nuclear density gauge large objects must be at least ______ away?',
-    options:['5ft','3ft','10ft','30ft'],
-    answer: 2
-   
 },
 {
     q:'In the procedure R76 Reducing Samples of Aggregate to Testing Size what method is used for Fine Aggregate drier than SSD?',
@@ -189,7 +183,7 @@ const quiz = [
 {
        q:'Which image represents the quartering template from R76 Method B?',
         options:['<img src="images/quarter.png">','<img src="images/plate.png">','<img src="images/shovel.png">'],
-        answer: 1
+        answer: 0
 },
 {
     q:'One-Point determinations are made by compacting soil using procedure ______?',
@@ -210,5 +204,171 @@ const quiz = [
        q:'When sampling from the pad created by the front loader the loader must enter the stockpile with the bucket atleast _____ from the ground?',
         options:['2ft','1ft','4ft','Against the ground'],
         answer: 1
+},
+{
+    q:'Once the sandcone is filled with sand what is the next step while doing the CONE CORRECTION?',
+    options:['Weigh the empty base plate','Close the valve sharply','Allow the sand to flow until it stops','Weigh the filled sandcone and record the mass'],
+    answer: 3
+},
+{
+   q:'When performing the Speedie Moisture test raise the moisture tester to a  _________ so the material will fall into the vessel?',
+    options:['vertical','perpendicular','parellel','horizontal'],
+    answer: 0
+},
+{
+    q:'You are trying to determine the ________ of the soil from the correction curve for the Speedie Moisture test?',
+     options:['wet mass','optimum moisture','dry mass','dry density'],
+     answer: 2
+ },
+ 
+
+ {
+    q:'When standardizing a nuclear gauge using the reference standard take at least _______ repetitive readings at the the normal measurement period?',
+    options:['2','4','3','1'],
+    answer: 1
+},
+
+{
+    q:'What image represents Method C of R76?',
+    options:['<img src="images/a.png">','<img src="images/c.png">','<img src="images/b.png">'],
+    answer: 1,
+},
+{
+    q:'There can not be more than ______ void beneath the nuclear Gauge?',
+    options:['1/4inch','1/2inch','1/8inch','3/4inch'],
+    answer: 2,
+},
+
+{
+    q:'When performing the procedure for T310 make a hole at least _______ deeper than the desired measurement depth?',
+    options:['1inch','2inch','3inch','4inch'],
+    answer: 1
+},
+{
+    q:'One 31.75mm (1.25inch) Steel Ball is used for procedure T217?',
+    options:['True','False'],
+    answer: 1
+},
+{
+    q:'What is this calculation from T191 used to find?',
+    options:['Cone Correction','Volume','Dry Mass','In Place Dry Density'],
+    answer: 1,
+    img: 'images/volume.png'
+},
+{
+    q:'What is this calculation from T191 used to find?',
+    options:['Cone Correction','Volume','Dry Mass','In Place Dry Density'],
+    answer: 3,
+    img: 'images/inplaceDD.png'
+},
+{
+    q:'What is this calculation from T191 used to find?',
+    options:['Cone Correction','Volume','Dry Mass','In Place Dry Density'],
+    answer: 2,
+    img: 'images/drymass.png'
+},
+
+{
+    q:'When determining the bulk density of the calibration of the sand what procedure demonstates how to determine the volume of the calibration container?',
+    options:['T265','T255','T19','T310'],
+    answer: 2,
+},
+{
+    q:'Where do you find minimum mass of field samples?',
+    options:['Table1 (5.2)','Table3 (6.3)','Table6 (7.2)','None of the Above'],
+    answer: 0,
+  
+},
+
+
+{
+    q:'When sampling from a conveyor belt using a sampling template you do not have to stop the belt?',
+    options:['True','False'],
+    answer: 1,
+},
+{
+    q:'When sampling aggregate from a Transport Unit how much material do you initially have to remove before obtaining your increment?',
+    options:['2ft','4inches','1ft','3inches'],
+    answer: 2,
+},
+
+{
+    q:'What does this diagram depict?',
+    options:['Automatic Proctor Hammer','Sand Cone','Speedie Moisture Tester','Sampler for Binder'],
+    answer: 1,
+    img: 'images/cone.png'
+},
+{
+    q:'The significance of proper sampling is to obtain samples that are ___________ of the material?',
+    options:['Representative','Contaminated','Best','None of the Above'],
+    answer: 0,
+},
+{
+    q:'If a test specimen has oversized particles you must determine your dry density & moisture corrections from______?',
+    options:['T90 or T185 (Annex A1)','T99 or T180 (Annex A1)','T265 or T255 (Annex A1)','T95 or T180 (Annex A1)'],
+    answer: 1,
+},
+{
+    q:'When using the method from T99 the test method applies to soil mixtures that have ____ or less retained on the ______ screen. When using Method A or B?',
+    options:['60%,3/4"','50%,#4','30%,3/4"','40%,#4'],
+    answer: 3,
+},
+
+{
+    q:'When using the method from T99 the test method applies to soil mixtures that have ____ or less retained on the ______ screen. When using Method C or D?',
+    options:['60%,3/4"','50%,#4','30%,3/4"','40%,#4'],
+    answer: 2,
+},
+{
+    q:'The significance of proper sampling is to obtain samples that are ___________ of the material?',
+    options:['Representative','Contaminated','Best','None of the Above'],
+    answer: 0,
+},
+{
+    q:'Procedure for T99: Form a specimen by compacting the soil in a ______ mold in ______ equal layers for Method A?',
+    options:['4",3','6",3','4",4','6",2'],
+    answer: 0,
+},
+{
+    q:'Procedure for T99: Compact each layer of the specimen with _______ uniformly distributed blows for Method A?',
+    options:['10','20','56','25'],
+    answer: 3,
+},
+
+{
+    q:'Procedure for T99: Form a specimen by compacting the soil in a ______ mold in ______ equal layers for Method D?',
+    options:['4",3','6",3','4",4','6",2'],
+    answer: 1,
+},
+{
+    q:'Procedure for T99: Compact each layer of the specimen with _______ uniformly distributed blows for Method D?',
+    options:['10','20','56','25'],
+    answer: 2,
+},
+{
+    q:'Images below represent an extruded compacted material from procedure T99/T272. Which best represents where the moisture content sample is to be taken?',
+     options:['<img src="images/moisture.png">','<img src="images/moisture1.png">','<img src="images/Moisture2.png">'],
+     answer: 0
+},
+{
+    q:'When selecting a test location make sure any vertical mass is at least ________ away from any vertical mass?',
+    options:['4"','6"','12"','24"'],
+    answer: 1,
+},
+{
+    q:'Procedure for T310: When perfoming the backscatter method what measurement are you obtaining directly from the readout of the machine?',
+    options:['Dry Density','Dry Mass','Wet Density','Wet Mass'],
+    answer: 2,
+},
+{
+    q:'When sampling Asphalt Binder from a place of manufacture using the tank tap method are you only supposed to sample from the valves at the top and middle locations of the tanks?',
+    options:['True','False'],
+    answer: 1,
+},
+{
+    q:'',
+    options:['Cone Correction','Density of Sand','Optimum Moisture','In Place Dry Density'],
+    answer: 0,
+    img: 'images/conecorrect.png'
 },
 ]
