@@ -293,7 +293,7 @@ const quiz = [
 },
 
 {
-    q:'What does this diagram depict?',
+    q:'What piece of equipment does this diagram depict?',
     options:['Automatic Proctor Hammer','Sand Cone','Speedie Moisture Tester','Sampler for Binder'],
     answer: 1,
     img: 'images/cone.png'
@@ -326,7 +326,7 @@ const quiz = [
 },
 {
     q:'Procedure for T99: Form a specimen by compacting the soil in a ______ mold in ______ equal layers for Method A?',
-    options:['4",3','6",3','4",4','6",2'],
+    options:['4", 3','6", 3','4", 4','6", 2'],
     answer: 0,
 },
 {
@@ -337,7 +337,7 @@ const quiz = [
 
 {
     q:'Procedure for T99: Form a specimen by compacting the soil in a ______ mold in ______ equal layers for Method D?',
-    options:['4",3','6",3','4",4','6",2'],
+    options:['4", 3','6", 3','4", 4','6", 2'],
     answer: 1,
 },
 {
@@ -356,7 +356,7 @@ const quiz = [
     answer: 1,
 },
 {
-    q:'Procedure for T310: When perfoming the backscatter method what measurement are you obtaining directly from the readout of the machine?',
+    q:'Procedure for T310: When perfoming the direct transmission method what measurement are you obtaining directly from the readout of the machine?',
     options:['Dry Density','Dry Mass','Wet Density','Wet Mass'],
     answer: 2,
 },
@@ -367,8 +367,207 @@ const quiz = [
 },
 {
     q:'',
-    options:['Cone Correction','Density of Sand','Optimum Moisture','In Place Dry Density'],
+    options:['Cone Correction','Bulk Density of Sand','Optimum Moisture','In Place Dry Density'],
     answer: 0,
     img: 'images/conecorrect.png'
 },
+{
+    q:'Please Figure Out Oven Dry Mass From The Graph<img src="images/graph.png">',
+    options:['12%','11%','13%','14%'],
+    answer: 2,
+    img: 'images/12.png'
+    
+},
+
+{
+    q:'Please Figure Out Oven Dry Mass From The Graph<img src="images/graph.png">',
+    options:['11%','16%','13%','15%'],
+    answer: 1,
+    img: 'images/14.png'
+    
+},
+{
+    q:'Please Figure Out Oven Dry Mass From The Graph<img src="images/graph.png">',
+    options:['18%','13%','17%','10%'],
+    answer: 0,
+    img: 'images/16.png'
+    
+},
+{
+    q:'Please Figure Out Oven Dry Mass From The Graph<img src="images/graph.png">',
+    options:['9%','10%','8%','4%'],
+    answer: 3,
+    img: 'images/4.png'
+    
+},
+{
+    q:'',
+    options:['Cone Correction','Bulk Density of Sand','Optimum Moisture','In Place Dry Density'],
+    answer: 0,
+    img: 'images/bulk.png'
+},
+{
+    q:'Procedure T191: When performing the procedure to determine the density of the soil as you dig out the hole and place the material into a container you must keep it covered to avoid losing moisture?',
+    options:['True','False'],
+    answer: 0,
+},
+
+
+{
+    q:'When reading the dial of the speedie moisture tester hold it in a ________ position?',
+    options:['vertical','parallel','horizontal','perpendicular'],
+    answer: 2,
+},
+{
+    q:'What data does T310 state it minimally needs in its report section?',
+    options:['Wet & Dry Densities, Water Content','Table3 (6.3)','Table6 (7.2)','None of the Above'],
+    answer: 0,
+  
+},
+
+{
+    q:'When obtaining a representative sample for Method A T99 the sample must be large enough that when oversized particles are removed ______ or more of the sample remains?',
+    options:['25lbs','7lbs','10lbs','20lbs'],
+    answer: 1,
+},
+{
+    q:'When obtaining a representative sample for Method D T99 the sample must have atleast a mass of ______?',
+    options:['25lbs','7lbs','10lbs','20lbs'],
+    answer: 0,
+},
+
+
+{
+    q:'When sampling asphalt mixtures from a paver hopper remove approximately _________ from the top of the material from the ________ of the hopper?',
+    options:['5 to 11inches, right','5 to 10inches, left','6 to 10inches, center','10 to 20inches, left'],
+    answer: 2,
+},
+{
+    q:'When sampling asphalt mixtures from a paver hopper DO NOT obtain sample from within _______ of the hopper sides?',
+    options:['2.0ft','1.0ft','1.5ft','2.5ft'],
+    answer: 2,
+},
+
+{
+    q:'When sampling from a flat surface created by a loader obtain at least ______ randomly selected locations at least ______ from the edge?',
+    options:['3, 2ft','3, 1ft','4, 2ft','4, 1ft'],
+    answer: 1,
+},
+/*stopped here*/
+{
+    q:'When using the method from T99 the test method applies to soil mixtures that have ____ or less retained on the ______ screen. When using Method A or B?',
+    options:['60%,3/4"','50%,#4','30%,3/4"','40%,#4'],
+    answer: 3,
+},
+
+{
+    q:'When using the method from T99 the test method applies to soil mixtures that have ____ or less retained on the ______ screen. When using Method C or D?',
+    options:['60%,3/4"','50%,#4','30%,3/4"','40%,#4'],
+    answer: 2,
+},
+{
+    q:'The significance of proper sampling is to obtain samples that are ___________ of the material?',
+    options:['Representative','Contaminated','Best','None of the Above'],
+    answer: 0,
+},
+{
+    q:'Procedure for T99: Form a specimen by compacting the soil in a ______ mold in ______ equal layers for Method A?',
+    options:['4", 3','6", 3','4", 4','6", 2'],
+    answer: 0,
+},
+{
+    q:'Procedure for T99: Compact each layer of the specimen with _______ uniformly distributed blows for Method A?',
+    options:['10','20','56','25'],
+    answer: 3,
+},
+
+{
+    q:'Procedure for T99: Form a specimen by compacting the soil in a ______ mold in ______ equal layers for Method D?',
+    options:['4", 3','6", 3','4", 4','6", 2'],
+    answer: 1,
+},
+{
+    q:'Procedure for T99: Compact each layer of the specimen with _______ uniformly distributed blows for Method D?',
+    options:['10','20','56','25'],
+    answer: 2,
+},
+{
+    q:'Images below represent an extruded compacted material from procedure T99/T272. Which best represents where the moisture content sample is to be taken?',
+     options:['<img src="images/moisture.png">','<img src="images/moisture1.png">','<img src="images/Moisture2.png">'],
+     answer: 0
+},
+{
+    q:'When selecting a test location make sure any vertical mass is at least ________ away from any vertical mass?',
+    options:['4"','6"','12"','24"'],
+    answer: 1,
+},
+{
+    q:'Procedure for T310: When perfoming the direct transmission method what measurement are you obtaining directly from the readout of the machine?',
+    options:['Dry Density','Dry Mass','Wet Density','Wet Mass'],
+    answer: 2,
+},
+{
+    q:'When sampling Asphalt Binder from a place of manufacture using the tank tap method are you only supposed to sample from the valves at the top and middle locations of the tanks?',
+    options:['True','False'],
+    answer: 1,
+},
+{
+    q:'',
+    options:['Cone Correction','Bulk Density of Sand','Optimum Moisture','In Place Dry Density'],
+    answer: 0,
+    img: 'images/conecorrect.png'
+},
+{
+    q:'Please Figure Out Oven Dry Mass From The Graph<img src="images/graph.png">',
+    options:['12%','11%','13%','14%'],
+    answer: 2,
+    img: 'images/12.png'
+    
+},
+
+{
+    q:'Please Figure Out Oven Dry Mass From The Graph<img src="images/graph.png">',
+    options:['11%','16%','13%','15%'],
+    answer: 1,
+    img: 'images/14.png'
+    
+},
+{
+    q:'Please Figure Out Oven Dry Mass From The Graph<img src="images/graph.png">',
+    options:['18%','13%','17%','10%'],
+    answer: 0,
+    img: 'images/16.png'
+    
+},
+{
+    q:'Please Figure Out Oven Dry Mass From The Graph<img src="images/graph.png">',
+    options:['9%','10%','8%','4%'],
+    answer: 3,
+    img: 'images/4.png'
+    
+},
+{
+    q:'',
+    options:['Cone Correction','Bulk Density of Sand','Optimum Moisture','In Place Dry Density'],
+    answer: 0,
+    img: 'images/bulk.png'
+},
+{
+    q:'Procedure T191: When performing the procedure to determine the density of the soil as you dig out the hole and place the material into a container you must keep it covered to avoid losing moisture?',
+    options:['True','False'],
+    answer: 0,
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]
