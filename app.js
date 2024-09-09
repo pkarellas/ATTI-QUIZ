@@ -7,6 +7,8 @@ const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
 
 const congratsbox = document.querySelector(".congrats-box");
+const wrongbox = document.querySelector(".youwrong-box");
+
 
 const questionLimit = 10; // if you want all questions "quiz.length"
 let questionCounter = 0;
@@ -167,6 +169,22 @@ function quizOver(){
         congratsbox.classList.add("hide");
     },7000);
     }
+
+    if (correctAnswers==0){
+        audiofour.play();
+    setTimeout(()=>{
+        resultBox.classList.add("hide");
+        wrongbox.classList.remove("hide");
+    },20);
+    setTimeout(()=>{
+        resultBox.classList.remove("hide");
+        wrongbox.classList.add("hide");
+    },5000);
+    }
+
+
+
+
    quizResult();
 }
 // get the quiz Result
