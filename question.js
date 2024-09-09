@@ -38,10 +38,10 @@ const quiz = [
     answer: 1,
 },
 {
-    q:'Are the sampling locations indicated in this image of an aggregate or asphalt mixture stockpile correct?',
+    q:'Are the sampling amount & locations indicated in this image of an aggregate or asphalt mixture stockpile correct?',
     options:['True','False'],
     answer: 0,
-    img: 'images/stockpile.png'
+    img: 'images/stockpile1.png'
 },
 {
     q:'When sampling a windrow of asphalt mixture remove approximately ______ foot from the top of the windrow',
@@ -49,10 +49,10 @@ const quiz = [
     answer: 2,
 },
 {
-    q:'Are the sampling locations indicated in this image of an aggregate or asphalt mixture stockpile correct?',
+    q:'Are the sampling amount & locations indicated in this image of an aggregate or asphalt mixture stockpile correct?',
     options:['True','False'],
     answer: 1,
-    img: 'images/stockpile1.png'
+    img: 'images/stockpile.png'
 },
 {
     q:'Sample Containers for sampling Asphalt Materials should be thoroughly cleaned with a solvent before use?',
@@ -196,7 +196,7 @@ const quiz = [
     answer: 1
 },
 {
-        q:'Standardization of Nuclear Gauges on the reference standard is required every ______?',
+        q:'AASHTO T310: Standardization of Nuclear Gauges on the reference standard is required every ______?',
         options:['None of the Above','Week','Month','Day'],
         answer: 3
 },
@@ -223,18 +223,18 @@ const quiz = [
  
 
  {
-    q:'When standardizing a nuclear gauge using the reference standard take at least _______ repetitive readings at the the normal measurement period?',
+    q:'AASHTO T310: When standardizing a nuclear gauge using the reference standard take at least _______ repetitive readings at the the normal measurement period?',
     options:['2','4','3','1'],
     answer: 1
 },
 
 {
-    q:'What image represents Method C of R76?',
+    q:'Which image most represents Method C of R76?',
     options:['<img src="images/a.png">','<img src="images/c.png">','<img src="images/b.png">'],
     answer: 1,
 },
 {
-    q:'There can not be more than ______ void beneath the nuclear Gauge?',
+    q:'AASHTO T310: There can not be more than ______ void beneath the nuclear Gauge?',
     options:['1/4inch','1/2inch','1/8inch','3/4inch'],
     answer: 2,
 },
@@ -453,54 +453,61 @@ const quiz = [
     options:['3, 2ft','3, 1ft','4, 2ft','4, 1ft'],
     answer: 1,
 },
-/*stopped here*/
+
 {
-    q:'When using the method from T99 the test method applies to soil mixtures that have ____ or less retained on the ______ screen. When using Method A or B?',
-    options:['60%,3/4"','50%,#4','30%,3/4"','40%,#4'],
+    q:'For AASHTO R67 Sampling cores you need to use a means such as water or air to aide in the cutting process',
+    options:['True"','False'],
+    answer: 0,
+},
+
+{
+    q:'When transporting cores, according to AASHTO R67, what do you need to protect them from?',
+    options:['Animals, Clouds','Wind, Water','Freezing, Excessive Heat','None Of The Answers'],
+    answer: 2,
+},
+
+{
+    q:'AASHTO T310: If the green dot on the image is a vertical mass how far does the nuke gauge have to be from it?',
+    options:['30-inch','12-inch','4-inch','6-inch'],
+    answer: 3,
+    img: 'images/aaaa.png'
+},
+
+{
+    q:'Procedure for T99: Which image best represents how many layers should be at the end of compaction for Method A?',
+    options:['<img src="images/three.png">','<img src="images/two.png">','<img src="images/one.png">'],
+    answer: 0,
+},
+
+{
+    q:'Procedure for T19 SECTION 8: What is the first step when calibrating the measure?',
+    options:['None','Weigh the measure filled with the water and plate','Fill the measure up with water','Put a thin layer of grease on the rim of the measure.'],
     answer: 3,
 },
 
 {
-    q:'When using the method from T99 the test method applies to soil mixtures that have ____ or less retained on the ______ screen. When using Method C or D?',
-    options:['60%,3/4"','50%,#4','30%,3/4"','40%,#4'],
+    q:'Procedure for T99: Thoroughly mix the representative sample with water to dampen to approximately ______ to ______ percentage points below optimum moisture?',
+    options:['4, 8','5, 10','2, 6','3, 4'],
+    answer: 0,
+},
+
+{
+    q:'Procedure for T19 SECTION 8: What temperature does the water that fills the measure have to be?',
+    options:['Slightly cold','50degrees F','Room','50degrees C'],
     answer: 2,
 },
 {
-    q:'The significance of proper sampling is to obtain samples that are ___________ of the material?',
-    options:['Representative','Contaminated','Best','None of the Above'],
-    answer: 0,
-},
-{
-    q:'Procedure for T99: Form a specimen by compacting the soil in a ______ mold in ______ equal layers for Method A?',
-    options:['4", 3','6", 3','4", 4','6", 2'],
-    answer: 0,
-},
-{
-    q:'Procedure for T99: Compact each layer of the specimen with _______ uniformly distributed blows for Method A?',
-    options:['10','20','56','25'],
-    answer: 3,
-},
-
-{
-    q:'Procedure for T99: Form a specimen by compacting the soil in a ______ mold in ______ equal layers for Method D?',
-    options:['4", 3','6", 3','4", 4','6", 2'],
+    q:'AASHTO R97: What are the minimum specs on the sampling plate?',
+    options:['16gauge steel & 1/2inch diameter holes at the end','8gauge steel & 1/2inch diameter holes at the end','8gauge steel & 1/4inch diameter holes at the end','8gauge steel & 1/8inch diameter holes at the end'],
     answer: 1,
 },
-{
-    q:'Procedure for T99: Compact each layer of the specimen with _______ uniformly distributed blows for Method D?',
-    options:['10','20','56','25'],
-    answer: 2,
-},
+/*stopped here*/
 {
     q:'Images below represent an extruded compacted material from procedure T99/T272. Which best represents where the moisture content sample is to be taken?',
      options:['<img src="images/moisture.png">','<img src="images/moisture1.png">','<img src="images/Moisture2.png">'],
      answer: 0
 },
-{
-    q:'When selecting a test location make sure any vertical mass is at least ________ away from any vertical mass?',
-    options:['4"','6"','12"','24"'],
-    answer: 1,
-},
+
 {
     q:'Procedure for T310: When perfoming the direct transmission method what measurement are you obtaining directly from the readout of the machine?',
     options:['Dry Density','Dry Mass','Wet Density','Wet Mass'],
