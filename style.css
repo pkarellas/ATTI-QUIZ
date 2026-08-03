@@ -217,11 +217,9 @@ justify-content: center;
   transform: scale(1.05); 
 }
 
-
-.quiz-box .option-container .option:hover:not([disabled]) {
+.quiz-box .option-container .option:hover:not(.correct):not(.wrong):not([disabled]) {
     background: #274068;
     color: #fff;
-     
 }
 
 .quiz-box .option-container .option.already-answered{
