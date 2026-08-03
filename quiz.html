@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>atti quiz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="home-box custom-box">
+<img src="images/atti.png" style="width: 25%; height: 25%;">
+<h3 id="test" style="border:1px;border-style:solid;border-color: black;padding: 1em"><p><b><u>Instruction:</u></b></p><p> This practice quiz is designed to help you test your knowledge of ATTI field procedures and prepare for the official examination.</p>
+<p>The quiz consists of 20 questions selected at random from a larger question bank. Because the questions are randomized, you'll receive a different set of questions each time you take the quiz, making it a great way to reinforce your knowledge.</p>
+<p>Take as many times as you want this is only practice.</p>
+<p>This practice test is for training purposes only and will not affect your score on the official examination.</p>
+<p>Do your best to answer each question before submitting your responses. If you are stuck you can press the next button to proceed to the next question.</p>
+</h3>
+<button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
+<p><h4>Total number</h4> <h1><span class="total-question"></span></h1></p>
+
+</div>
+
+<div class="quiz-box custom-box hide">
+<div class="question-number">
+
+</div>
+<div class="question-text">
+
+</div>
+<div class="option-container">
+
+</div>
+<div class="next-question-btn">
+<button type="button" class="btn" onclick="next()">Next</button>
+</div>
+<div class="answers-indicator">
+
+</div>
+</div>
+
+<div class="result-box custom-box hide">
+<h1><u> QUIZ RESULTS</u></h1>
+<table>
+<tr>
+<td><h4>TOTAL QUESTIONS:</h4></td>
+<td><span class="total-question"></span></td>
+</tr>
+<tr>
+<td><h4>ATTEMPTED QUESTIONS:</h4></td>
+<td><span class="total-attempt"></span></td>
+</tr>
+<tr>
+<td><h4>CORRECT:</h4></td>
+<td><span class="total-correct"></span></td>
+</tr>
+<tr>
+<td><h4>WRONG:</h4></td>
+<td><span class="total-wrong"></span></td>
+</tr>
+<tr>
+<td><h4>PERCENTAGE:</h4></td>
+<td><span class="percentage"></span></td>
+</tr>
+<tr>
+<td><h4>YOUR TOTAL SCORE:</h4></td>
+<td><span class="total-score"></span></td>
+</tr>
+</table>
+<button type="button" class="btn" onclick="tryAgainQuiz()">TRY AGAIN</button>
+<br>
+<button type="button" class="btn" onclick="goToHome()">INSTRUCTIONS</button>
+
+</hr>
+
+
+
+
+
+</div>
+
+<script src="question.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
